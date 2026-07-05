@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Website</title>
+    
+    <!-- Basic styling to make your first website look great -->
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            line-height: 1.6; 
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header { 
+            background: #004080; 
+            color: #ffffff; 
+            padding: 1.5rem 0; 
+            text-align: center; 
+        }
+        nav ul { 
+            list-style: none; 
+            padding: 0; 
+            margin: 10px 0 0 0;
+        }
+        nav ul li { 
+            display: inline; 
+            margin: 0 15px; 
+        }
+        nav ul li a { 
+            color: #ffffff; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 1.1rem;
+        }
+        nav ul li a:hover { 
+            text-decoration: underline; 
+            color: #ffcc00;
+        }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        section { 
+            padding: 2rem 0; 
+            border-bottom: 1px solid #ddd; 
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        .school-photo { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px;
+            display: block; 
+            margin: 15px auto; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 1rem; 
+            background: #222; 
+            color: #fff; 
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <h1>Global Excellence Academy</h1>
+        <nav>
+            <ul>
+                <!-- These links connect to the IDs in the sections below -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to Our School!</h2>
+            <p>Empowering young minds for a brighter tomorrow.</p>
+            
+            <!-- Replace the 'src' link with your own image file, like "school.jpg" -->
+            <img src="https://via.placeholder.com/800x400?text=Your+School+Photo+Here" alt="Photo of the school" class="school-photo">
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Global Excellence Academy has been a cornerstone of education in our community. We pride ourselves on offering a supportive, inclusive, and challenging environment for all our students to thrive academically and personally.</p>
+        </section>
+
+        <!-- Classes Section -->
+        <section id="classes">
+            <h2>Our Classes</h2>
+            <ul>
+                <li><strong>Kindergarten:</strong> Early foundations, social skills, and play-based learning.</li>
+                <li><strong>Primary (Grades 1-5):</strong> Core subjects including Math, Science, Reading, and Arts.</li>
+                <li><strong>Middle School (Grades 6-8):</strong> Advanced academics, physical education, and technology.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>We would love to hear from you. Reach out to us using the information below:</p>
+            <p><strong>Address:</strong> 123 Education Lane, Knowledge City, State 12345</p>
+            <p><strong>Phone:</strong> (555) 987-6543</p>
+            <p><strong>Email:</strong> info@globalexcellence.edu</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Global Excellence Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
